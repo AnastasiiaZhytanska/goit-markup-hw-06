@@ -179,6 +179,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-list {
@@ -186,6 +187,7 @@ button {
 .portfolio-items {
 }
 .portfolio-img {
+  width: 360px;
 }
 .portfolio-header {
   font-weight: 500;
@@ -210,6 +212,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
 }
