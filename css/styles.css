@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fcfcfc;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.tel,
+.email {
+}
+
+.tel:hover,
+.tel:focus,
+.email:hover,
+.email:focus {
+  color: #4d5ae5;
+}
+
+.hero {
+  background: #2e2f42;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* #region header*/
+
+.header {
+}
+.nav {
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo-span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.menu {
+}
+.menu-items {
+}
+.menu-link {
+}
+.email {
+}
+.tel {
+}
+
+/* #endregion header*/
