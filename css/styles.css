@@ -137,7 +137,7 @@ button {
 
 /* #region team */
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -150,8 +150,10 @@ button {
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 .team-items {
+  background-color: #ffffff;
 }
 .team-img {
 }
@@ -187,7 +189,6 @@ button {
 .portfolio-items {
 }
 .portfolio-img {
-  width: 360px;
 }
 .portfolio-header {
   font-weight: 500;
