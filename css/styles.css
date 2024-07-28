@@ -13,25 +13,6 @@ ol {
   list-style-type: none;
 }
 
-.tel,
-.email {
-}
-
-.tel:hover,
-.tel:focus,
-.email:hover,
-.email:focus {
-  color: #4d5ae5;
-}
-
-.hero {
-  background: #2e2f42;
-}
-
-button {
-  cursor: pointer;
-}
-
 /* #region header*/
 
 .header {
@@ -45,11 +26,11 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu {
@@ -57,10 +38,70 @@ button {
 .menu-items {
 }
 .menu-link {
-}
-.email {
-}
-.tel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.menu-link:active {
+  color: #404bbf;
+}
+
+.address {
+}
+
+.address-link,
+.address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #4d5ae5;
+}
 /* #endregion header*/
+
+/* #hero */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-button {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+}
