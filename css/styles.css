@@ -90,7 +90,7 @@ button {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -112,7 +112,7 @@ button {
 }
 /* #endregion hero */
 
-/* #region solutions*/
+/* #region advantages*/
 .advantages {
 }
 .advantages-title {
@@ -137,14 +137,15 @@ button {
 
 /* #region team */
 .team {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
