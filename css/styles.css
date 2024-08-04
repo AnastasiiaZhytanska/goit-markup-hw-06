@@ -50,10 +50,13 @@ button {
 }
 
 /* #region header*/
-.header-container {
-}
 .header {
+}
+
+.header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .nav {
   display: flex;
@@ -68,6 +71,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-span {
@@ -134,10 +138,15 @@ button {
   background-color: #2e2f42;
 }
 .hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  padding-left: 331px;
+  padding-right: 331px;
 }
 
 .hero-title {
   font-weight: 700;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -153,6 +162,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-button:hover,
@@ -162,7 +176,7 @@ button {
 /* #endregion hero */
 
 /* #region advantages*/
-.advantages .container {
+.advantages-container {
   padding-left: 15px;
   padding-right: 15px;
 }
