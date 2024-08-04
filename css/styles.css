@@ -15,27 +15,50 @@ h4,
 h5,
 h6,
 p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 ul,
 ol {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 button {
   cursor: pointer;
 }
 
-/* #region header*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* #region header*/
+.header-container {
 }
 .header {
   display: flex;
-  justify-content: space-between;
 }
 .nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -45,9 +68,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: block;
 }
 
 .logo-span {
@@ -113,6 +133,8 @@ button {
 .hero {
   background-color: #2e2f42;
 }
+.hero-container {
+}
 
 .hero-title {
   font-weight: 700;
@@ -140,13 +162,20 @@ button {
 /* #endregion hero */
 
 /* #region advantages*/
-.advantages {
+.advantages .container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
 .advantages-title {
 }
 .advantages-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 .advantages-items {
+  width: calc((100% - 72px) / 4);
 }
 .advantages-header {
   font-weight: 500;
@@ -154,6 +183,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .advantages-text {
   font-size: 16px;
