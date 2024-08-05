@@ -56,9 +56,10 @@ button {
   padding-bottom: 120px;
 }
 /* #region header*/
-
-.header-container {
+.header {
   border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,6 +220,7 @@ button {
   background-color: #f4f4fd;
 }
 .team-card {
+  padding: 32px 0;
 }
 .team-title {
   font-weight: 700;
@@ -234,10 +236,11 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 .team-items {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 .team-img {
@@ -249,6 +252,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-text {
   font-size: 16px;
@@ -269,6 +273,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-list {
   display: flex;
@@ -298,6 +303,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -309,11 +315,11 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 0;
 }
 
 .footer-logo {
