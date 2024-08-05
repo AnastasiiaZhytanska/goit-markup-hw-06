@@ -328,7 +328,7 @@ button {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
 }
 .footer-logo-span {
