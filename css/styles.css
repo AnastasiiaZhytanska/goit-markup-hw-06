@@ -218,6 +218,8 @@ button {
 .team {
   background-color: #f4f4fd;
 }
+.team-card {
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -232,6 +234,7 @@ button {
 .team-list {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
 }
 .team-items {
