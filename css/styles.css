@@ -106,6 +106,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  transition: color 300ms linear;
 }
 
 .menu-link:hover,
@@ -113,8 +114,13 @@ button {
   color: #404bbf;
 }
 
-.menu-link:active {
+.menu-link .studio:active::after {
+  content: '';
   color: #404bbf;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  display: block;
 }
 
 .address {
@@ -137,6 +143,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
+  transition: color 300ms linear;
 }
 
 .address-link:hover,
@@ -150,6 +157,14 @@ button {
 .hero {
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hero-container {
   text-align: center;
@@ -180,11 +195,12 @@ button {
   height: 56px;
   display: block;
   border: none;
+  transition: backgraund-color 300ms linear;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* #endregion hero */
 
@@ -201,6 +217,8 @@ button {
 }
 .advantages-items {
   width: calc((100% - 72px) / 4);
+}
+.advantages-items-border {
 }
 .advantages-header {
   font-weight: 500;
