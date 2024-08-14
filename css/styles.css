@@ -116,13 +116,14 @@ button {
 
 .menu-link .studio:active::after {
   content: '';
-  color: #404bbf;
   border-radius: 2px;
   width: 48px;
   height: 4px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #404bbf;
 }
-
 .address {
   font-style: normal;
 }
@@ -219,6 +220,11 @@ button {
   width: calc((100% - 72px) / 4);
 }
 .advantages-items-border {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
 }
 .advantages-header {
   font-weight: 500;
