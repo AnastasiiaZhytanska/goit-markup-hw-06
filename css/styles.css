@@ -108,20 +108,21 @@ button {
   display: block;
   transition: color 300ms linear;
 }
+.studio::after {
+  content: '';
+  display: block;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+}
 
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
 
-.menu-link .studio:active::after {
-  content: '';
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.menu-link:active {
   color: #404bbf;
 }
 .address {
@@ -225,6 +226,14 @@ button {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background: #f4f4fd;
+  position: relative;
+  margin-bottom: 8px;
+}
+.icon-advantage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .advantages-header {
   font-weight: 500;
@@ -244,6 +253,11 @@ button {
 /* #region team */
 .team {
   background-color: #f4f4fd;
+  max-width: 1440px;
+  height: 780px;
+}
+.team-container {
+  max-width: 1128px;
 }
 .team-card {
   padding: 32px 0;
@@ -257,6 +271,16 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
 }
 
 .team-list {
