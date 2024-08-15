@@ -65,6 +65,8 @@ button {
 /* #region header*/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -106,7 +108,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  transition: color 300ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio {
   position: relative;
@@ -151,7 +153,7 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
   display: block;
-  transition: color 300ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -235,13 +237,16 @@ button {
   background: #f4f4fd;
   position: relative;
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.icon-advantage {
+/* .icon-advantage {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 .advantages-header {
   font-weight: 500;
   font-size: 20px;
