@@ -426,14 +426,17 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
+  max-width: 1440px;
 }
 .footer-main-container {
-  max-width: 1440px;
   display: flex;
   align-items: baseline;
+  gap: 72px;
 }
 .footer-container {
   margin-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-weight: 700;
