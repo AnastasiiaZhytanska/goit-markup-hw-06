@@ -176,6 +176,7 @@ button {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: auto;
 }
 .hero-container {
   text-align: center;
@@ -265,8 +266,6 @@ button {
 /* #region team */
 .team {
   background-color: #f4f4fd;
-  max-width: 1440px;
-  height: 780px;
 }
 .team-container {
   max-width: 1128px;
@@ -291,8 +290,6 @@ button {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  width: 232px;
-  height: 40px;
 }
 .team-media-items {
   height: 40px;
@@ -340,6 +337,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 .icon-team {
   fill: #f4f4fd;
@@ -428,17 +426,15 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
-  max-width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-main-container {
   display: flex;
   align-items: baseline;
-  gap: 72px;
 }
 .footer-container {
   margin-right: 120px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .footer-logo {
   font-weight: 700;
