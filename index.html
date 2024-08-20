@@ -502,10 +502,11 @@
                   <input
                     class="modal-input"
                     id="user-name"
-                    type="name"
+                    type="text"
+                    name="user-name"
                     required
                   />
-                  <svg class="modal-icon" width="18px" height="18px">
+                  <svg class="modal-icon" width="18px" height="24px">
                     <use href="./images/icons.svg#icon-person-black"></use>
                   </svg>
                 </div>
@@ -516,10 +517,12 @@
                   <input
                     class="modal-input"
                     id="user-tel"
+                                        type="text"
+                    name="user-tel"
                     type="tel"
                     required
                   />
-                  <svg class="modal-icon" width="18px" height="18px">
+                  <svg class="modal-icon" width="18px" height="24px">
                     <use href="./images/icons.svg#icon-phone-black"></use>
                   </svg>
                 </div>
@@ -530,10 +533,12 @@
                   <input
                     class="modal-input"
                     id="user-email"
+                                        type="text"
+                    name="user-email"
                     type="email"
                     required
                   />
-                  <svg class="modal-icon" width="18px" height="18px">
+                  <svg class="modal-icon" width="18px" height="24px">
                     <use href="./images/icons.svg#icon-email-black"></use>
                   </svg>
                 </div>
@@ -543,18 +548,21 @@
                   >Comment</label
                 >
                 <textarea
+                name="user-comment"
                   class="modal-textarea"
                   id="user-comment"
-                  placeholder="Enter text"
+                  placeholder="Text input"
                 ></textarea>
               </div>
-              <div class="modalt-cont-checkbox">
+              <div class="modal-cont-checkbox">
                 <input
                   type="checkbox"
-                  id="user-checkbox"
+                  id="user-privacy"
+                   value="true"
+                   name="user-privacy"
                   class="modal-input-checkbox visually-hidden"
                 />
-                <label for="user-checkbox" class="custom-label-user-checkbox">
+                <label for="user-privacy" class="custom-label-user-checkbox">
                   <span class="custom-checkbox">
                     <svg class="" wight="10px" height="8px">
                       <use href="./images/icons.svg#icon-vector"></use>
@@ -563,7 +571,7 @@
                   <a class="privacy-policy" href="#">Privacy Policy</a>
                 </label>
               </div>
-              <bottom class="form-bottom" type="submit">Send</bottom>
+              <button class="form-bottom" type="submit">Send</button>
             </form>
           </div>
         </div>
