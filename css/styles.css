@@ -501,7 +501,7 @@ button {
 }
 
 /* #endregion footer */
-/* Footer-Subscribe-Form */
+/* #region footer-subscribe-form */
 
 .footer-text-form {
   font-weight: 500;
@@ -562,7 +562,7 @@ button {
   padding-left: 16px;
   color: #ffffff;
 }
-
+/* #endregion footer-subscribe-form */
 /* #region backgraund-modal */
 .backdrop {
   background-color: rgba(46, 47, 66, 0.4);
@@ -747,8 +747,10 @@ button {
   fill: transparent;
 }
 .modal-input-checkbox:checked + .custom-label-user-checkbox > .custom-checkbox {
-  border-color: transparent;
-  background-color: #404bbf;
+.checkbox:checked + .custom-label-checkbox > .custom-checkbox {
+  border: none;
+  fill: #F4F4FD; 
+  background-color:  #404bbf;
 }
 .modal-input-checkbox {
 }
@@ -757,12 +759,13 @@ button {
   color: #4d5ae5;
 }
 .custom-label-user-checkbox {
-  cursor: pointer;
+  line-height: 1.17;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  line-height: 1.17;
+  display: block;
+  margin-bottom: 4px;
 }
 .form-button {
   border-radius: 4px;
@@ -771,5 +774,12 @@ button {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+   display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 /* #endregion backgraund-modal */
